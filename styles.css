@@ -1,0 +1,62 @@
+body {
+ background-color:gray;
+display: inline-flex;
+}
+h1{
+    color: black;
+    align-items: center;
+    text-align: center;
+    
+}
+table tr td  {
+    border: 1px solid black;
+}
+col1{
+    align-items: top;
+}
+col2{
+    align-items: left;
+}
+
+.box {
+    border: 1px solid gray ;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px 5px 0 0;
+}
+
+img {
+    width: 70%;
+    justify-self: center;
+    align-self: center;
+    text-align: center;
+    align-items: center;
+    image-orientation: flip;
+   
+}
+
+/* div{
+    border: 2px solid black;
+} */
+.roundedDiv{
+
+    background-color:gray;
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 0 5px 5px;
+}
+.sandwichDiv{
+    border-radius: 15px;
+    background-color: white;
+    width: 400px;
+    margin: 0 0 0 15px;
+
+}
+#main{
+display: flex;
+
+}
